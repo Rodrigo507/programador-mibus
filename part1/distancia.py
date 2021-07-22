@@ -28,7 +28,7 @@ def stopDiff(rutas):
         diferencia = dist - dist_acum
         dist_acum = dist
         if diferencia != 0:
-            allV.append([p[0], "{} - {}".format(lastStopCd, p[2]), diferencia])
+            allV.append([p[0], "{} -{}".format(lastStopCd, p[2]), diferencia])
         lastStopCd = p[2]
     return allV
 
