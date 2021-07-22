@@ -36,7 +36,7 @@ def stopDiff(rutas):
 def writeFile(paradas):
     header = ["RT_ID", "ARCO", "DISTANCIA"]
 
-    file = open("diferenciaParadas.csv", "a", newline="")
+    file = open("distanciaParadas.csv", "a", newline="")
     write = csv.writer(file)
 
     write.writerow(header)
